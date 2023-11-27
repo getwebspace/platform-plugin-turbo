@@ -1,4 +1,4 @@
-{% if parameter('WSETurboPlugin_address') %}
+{% if parameter('WSETurboPlugin_host') %}
     <div class="d-block d-sm-none" style="top: 0;left: 0;width: 100%;padding: 10px;background-color: #0167F3;color: #fff;z-index: 9999;">
         <div class="container" style="max-width: 800px;">
             <div class="row g-1 align-items-center">
@@ -7,7 +7,7 @@
                     {{ parameter('WSETurboPlugin_prompt', 'Check out our mobile web app!') }}
                 </div>
                 <div class="col-2">
-                    <a href="{{ parameter('WSETurboPlugin_address') }}" class="btn btn-sm w-100" style="background-color: #fff; color: #007bff;">{{ 'Open'|locale }}</a>
+                    <a href="{{ parameter('WSETurboPlugin_host') }}" class="btn btn-sm w-100" style="background-color: #fff; color: #007bff;">{{ 'Open'|locale }}</a>
                 </div>
             </div>
         </div>
